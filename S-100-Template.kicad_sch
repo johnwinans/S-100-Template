@@ -92,21 +92,20 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 0 67.31 0)
+			(property "Reference" "J"
+				(at 0 67.564 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 64.77 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -537,7 +536,7 @@
 				(pin passive line
 					(at -11.43 7.62 0)
 					(length 2.54)
-					(name "~{ADBB}"
+					(name "~{ADSB}"
 						(effects
 							(font
 								(size 1.27 1.27)
