@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name S-100-Template-rescue)(type Legacy)(uri ${KIPRJMOD}/S-100-Template-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "S100")(type "KiCad")(uri "${KIPRJMOD}/S100.kicad_sym")(options "")(descr ""))
 )
