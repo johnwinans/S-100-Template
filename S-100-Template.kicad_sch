@@ -88,6 +88,93 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MountingHole_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "S100:S100-Edge-Connector"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2324,16 +2411,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 69.85 187.96 0)
+		(at 266.7 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642b6655-7750-435d-85c4-c6647291b9fb")
 		(property "Reference" "H2"
-			(at 72.39 186.6899 0)
+			(at 269.24 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,8 +2428,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 72.39 189.2299 0)
+		(property "Value" "Card Ejector"
+			(at 269.24 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2438,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 69.85 187.96 0)
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,8 +2446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 187.96 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6722/CP-2X_D1.pdf"
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2456,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 69.85 187.96 0)
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "492-1025-ND"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer  " "Bivar Inc."
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,17 +2492,18 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 44.45 187.96 0)
+		(at 266.7 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69201d0-7861-4be1-be7c-19f8d4a24c7b")
 		(property "Reference" "H1"
-			(at 46.99 186.6899 0)
+			(at 269.24 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,8 +2511,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 46.99 189.2299 0)
+		(property "Value" "Card Ejector"
+			(at 269.24 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2521,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 44.45 187.96 0)
+			(at 266.7 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,8 +2529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 187.96 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6722/CP-2X_D1.pdf"
+			(at 266.7 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2539,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 44.45 187.96 0)
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "492-1025-ND"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer  " "Bivar Inc."
+			(at 266.7 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
