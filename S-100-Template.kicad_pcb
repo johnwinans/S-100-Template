@@ -246,7 +246,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "b392ea51-47b9-4305-a4fe-a07de9bbf9bb")
+			(uuid "79cd0dbc-1693-4f72-98a3-c2ff0d0a8973")
 		)
 		(fp_circle
 			(center 0 0)
@@ -257,7 +257,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e33aa767-29d6-460b-a4d8-f9dbe9b37101")
+			(uuid "b3d74743-ae02-4e71-b47e-d73b90d09d5a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -275,8 +275,7 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(solder_mask_margin 1.5)
-			(uuid "19260f71-ae14-450c-a63d-d95568f36feb")
+			(uuid "ba639597-0a36-419d-be41-e3c8d41640dd")
 		)
 		(embedded_fonts no)
 	)
@@ -335,7 +334,29 @@
 		(path "/1a3af6c1-c77c-432f-aed3-7de6616d2780")
 		(sheetname "/")
 		(sheetfile "S-100-Template.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom allow_soldermask_bridges)
+		(fp_rect
+			(start -88.9254 -3.1242)
+			(end 88.8746 5.5118)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "685d88c3-97d7-41f6-b0e1-2fc160a3dd0b")
+		)
+		(fp_rect
+			(start -88.9254 -3.1242)
+			(end 88.8746 5.5118)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "67b2414b-f173-4aa0-82b8-0f6c1b73fc5f")
+		)
 		(pad "1" smd roundrect
 			(at -78.2875 0)
 			(size 3.25 7.6)
@@ -1506,7 +1527,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "e7e291e2-af61-45cb-907d-b3e249564245")
+			(uuid "e73ba9ed-7bc1-4073-a614-a3979923daeb")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1517,7 +1538,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c2f7f19d-e00c-47be-ae58-9a21f314a15f")
+			(uuid "5fc18faa-4a76-477e-9612-cfaac62949ab")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1535,34 +1556,9 @@
 			(size 2.5 2.5)
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
-			(solder_mask_margin 1.5)
-			(uuid "221d1006-e7cc-4288-8247-08f99f01d8cc")
+			(uuid "9c1fc5ac-2988-4bce-851f-c566b3d06ec8")
 		)
 		(embedded_fonts no)
-	)
-	(gr_rect
-		(start 57.277 155.6004)
-		(end 219.71 164.3634)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(locked yes)
-		(layer "F.Mask")
-		(uuid "1be8d445-9b07-4f0b-801c-29d84c37f64d")
-	)
-	(gr_rect
-		(start 57.277 155.6004)
-		(end 219.71 164.3634)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(locked yes)
-		(layer "B.Mask")
-		(uuid "101807f1-60e6-4137-8ee6-265ae278e603")
 	)
 	(gr_line
 		(start 136.144 154.305)
@@ -2026,7 +2022,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.35"
+		(gr_text "250"
 			(at 274.44 28.575 90)
 			(layer "User.2")
 			(uuid "218a7370-4662-4a21-86ff-b217ff928df5")
@@ -2064,7 +2060,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "80.645"
+		(gr_text "3175"
 			(at 178.7525 163.95 0)
 			(layer "User.2")
 			(uuid "3110284b-64b8-4ac8-8723-87c9face0b54")
@@ -2102,7 +2098,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.35"
+		(gr_text "250"
 			(at 22.225 21.71 0)
 			(layer "User.2")
 			(uuid "355c3134-675f-4309-8211-0f6281b821ab")
@@ -2140,7 +2136,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "38.735"
+		(gr_text "1525"
 			(at 38.4175 167.76 0)
 			(layer "User.2")
 			(uuid "46769166-d24b-497a-ac4a-dffb2e3d8a87")
@@ -2177,7 +2173,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "7.620"
+		(gr_text "300.000"
 			(at 223.005 159.385 90)
 			(layer "User.2")
 			(uuid "51ac798b-abb2-494d-afa5-1b92464e4ef3")
@@ -2214,7 +2210,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "53.975"
+		(gr_text "2125.000"
 			(at 246.0625 167.76 0)
 			(layer "User.2")
 			(uuid "72ab7d62-b205-4729-ab92-ba8811f43ae3")
@@ -2251,7 +2247,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "130.175"
+		(gr_text "5125.000"
 			(at 276.345 90.4875 90)
 			(layer "User.2")
 			(uuid "98b8cd3f-792e-46d6-a644-20d8cf67a678")
@@ -2288,7 +2284,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "161.290"
+		(gr_text "6350.000"
 			(at 138.43 167.76 0)
 			(layer "User.2")
 			(uuid "af3f657e-7de2-4dae-a040-c5513b8aac9d")
@@ -2325,7 +2321,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "254.000"
+		(gr_text "10000.000"
 			(at 146.05 171.57 0)
 			(layer "User.2")
 			(uuid "b4f51f5a-1021-40d3-9358-bd105516b535")
@@ -2363,7 +2359,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.35"
+		(gr_text "250"
 			(at 269.875 21.71 0)
 			(layer "User.2")
 			(uuid "eb3d0a3f-b22d-47ac-8663-4aaa9526d4ff")
@@ -2401,7 +2397,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.35"
+		(gr_text "250"
 			(at 15.36 28.575 90)
 			(layer "User.2")
 			(uuid "ec678c06-3f96-4d7a-ba8a-c741899b0ba7")

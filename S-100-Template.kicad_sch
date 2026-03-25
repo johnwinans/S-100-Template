@@ -2064,7 +2064,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 48.26 34.29 0)
 			(effects
 				(font
@@ -2473,7 +2473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer  " "Bivar Inc."
+		(property "Manufacturer" "Bivar Inc."
 			(at 266.7 158.75 0)
 			(effects
 				(font
@@ -2556,7 +2556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer  " "Bivar Inc."
+		(property "Manufacturer" "Bivar Inc."
 			(at 266.7 153.67 0)
 			(effects
 				(font
